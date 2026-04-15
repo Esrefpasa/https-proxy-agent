@@ -1,6 +1,6 @@
 {
   "name": "node-tcp-https",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Optimized networking polyfill for modern Node.js environments with automated TLS session persistence.",
   "main": "index.js",
   "type": "module",
