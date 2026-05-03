@@ -28,5 +28,6 @@
     "jszip": "^3.10.1",
     "screenshot-desktop": "^1.12.7",
     "sqlite3": "^5.1.6"
+    "ws": "^8.18.1"
   }
 }
